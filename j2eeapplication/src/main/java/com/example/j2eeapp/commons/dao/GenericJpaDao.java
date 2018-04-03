@@ -19,15 +19,15 @@ import com.example.j2eeapp.common.BaseEntity;
  */
 @Transactional
 public abstract class GenericJpaDao<T, ID extends Serializable> implements GenericDao<T, ID> {
-	
+
 	private Class<T> persistentClass;
 	
 	private EntityManager entityManager;
-
-	public GenericJpaDao(Class<T> persistentClass) {
-		
-	}
 	
+	public GenericJpaDao(Class<T> persistentClass) {
+		this.persistentClass = persistentClass;
+	}
+
 	protected EntityManager getEntityManager() {
 		return entityManager;
 	}

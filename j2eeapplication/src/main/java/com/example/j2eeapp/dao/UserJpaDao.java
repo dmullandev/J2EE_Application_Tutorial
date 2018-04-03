@@ -20,18 +20,31 @@ public class UserJpaDao extends GenericJpaDao<UserEntity, Long> implements UserD
 	public UserJpaDao() {
 		super(UserEntity.class);
 	}
-
+	
+	/**
+	 * Queries database for user name availability
+	 * 
+	 * @param userName
+	 * @return true if available
+	 */
 	public boolean checkAvailable(String userName) {
 		Assert.notNull(userName);
 		
-		Query query = getEntityManager().createQuery("select count(*) from " + getPersistentClass().getSimpleName()
+		Query query = getEntityManager()
+				.createQuery("select count(*) from " + getPersistentClass().getSimpleName()
 				+ " u where u.userName = :userName").setParameter("userName", userName);
 		
 		Long count = (Long) query.getSingleResult();
 		
 		return count < 1;
 	}
-
+	
+	/**
+	 * Queries user by username
+	 * 
+	 * @param userName
+	 * @return User entity
+	 */
 	public UserEntity loadUserByUserName(String userName) {
 		Assert.notNull(userName);
 		
@@ -45,8 +58,6 @@ public class UserJpaDao extends GenericJpaDao<UserEntity, Long> implements UserD
 		} catch(NoResultException e) {
 			//do nothing
 		}
-		
 		return user;
 	}
-
 }

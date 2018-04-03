@@ -2,7 +2,9 @@ D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\ja
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\common\BaseEntity.java
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\dao\UserJpaDao.java
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\commons\dao\GenericDao.java
+D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\services\impl\UserAuthenticationProviderServiceImpl.java
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\services\impl\UserServiceImpl.java
+D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\services\UserAuthenticationProviderService.java
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\services\UserService.java
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\domain\UserEntity.java
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\commons\dao\GenericJpaDao.java

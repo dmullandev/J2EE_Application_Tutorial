@@ -54,8 +54,7 @@ public class UserEntity extends BaseEntity{
 	}
 	
 	public void setPassword(String password) {
-		PasswordEncoder crypto = new Md5PasswordEncoder();
-		
+		PasswordEncoder crypto = new Md5PasswordEncoder();		
 		this.password = crypto.encodePassword(password, null);
 	}
 }

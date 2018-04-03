@@ -19,4 +19,5 @@ public interface UserService {
 		 * @return true if success
 		 */
 		boolean createUser(UserEntity userEntity);
+
 }

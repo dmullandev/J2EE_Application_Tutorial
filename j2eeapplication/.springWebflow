@@ -4,8 +4,8 @@
 	<pluginVersion><![CDATA[3.9.3.201803200843-RELEASE]]></pluginVersion>
 	<configs>
 		<config>
-			<file>src/main/webapp/WEB-INF/flows/main-flow.xml</file>
-			<name><![CDATA[main]]></name>
+			<file>src/main/webapp/WEB-INF/flows/account/account-flow.xml</file>
+			<name><![CDATA[account]]></name>
 		</config>
 	</configs>
 </webflow-project-description>

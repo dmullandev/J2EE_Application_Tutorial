@@ -9,9 +9,10 @@
 	<configs>
 		<config>src/main/webapp/WEB-INF/datasource-config.xml</config>
 		<config>src/main/webapp/WEB-INF/webflow-config.xml</config>
+		<config>src/main/webapp/WEB-INF/applicationContext.xml</config>
+		<config>src/main/webapp/WEB-INF/security-config.xml</config>
 	</configs>
 	<autoconfigs>
-		<config>src/main/webapp/WEB-INF/applicationContext.xml</config>
 	</autoconfigs>
 	<configSets>
 		<configSet>
@@ -19,9 +20,10 @@
 			<allowBeanDefinitionOverriding>true</allowBeanDefinitionOverriding>
 			<incomplete>false</incomplete>
 			<configs>
-				<config>src/main/webapp/WEB-INF/applicationContext.xml</config>
 				<config>src/main/webapp/WEB-INF/datasource-config.xml</config>
 				<config>src/main/webapp/WEB-INF/webflow-config.xml</config>
+				<config>src/main/webapp/WEB-INF/applicationContext.xml</config>
+				<config>src/main/webapp/WEB-INF/security-config.xml</config>
 			</configs>
 			<profiles>
 			</profiles>
