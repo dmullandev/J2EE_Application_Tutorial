@@ -1,5 +1,6 @@
 com\example\j2eeapp\dao\UserJpaDao.class
 com\example\j2eeapp\services\UserAuthenticationProviderService.class
+com\example\j2eeapp\ui\utils\UIUtils.class
 com\example\j2eeapp\domain\UserEntity.class
 com\example\j2eeapp\commons\dao\GenericJpaDao.class
 com\example\j2eeapp\dao\UserDao.class

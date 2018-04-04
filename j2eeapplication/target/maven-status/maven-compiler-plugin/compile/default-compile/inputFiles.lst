@@ -1,5 +1,6 @@
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\dao\UserDao.java
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\common\BaseEntity.java
+D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\ui\utils\UIUtils.java
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\dao\UserJpaDao.java
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\commons\dao\GenericDao.java
 D:\eeWorkspace2\j2eeapplication\jee-tutorial-youtube\j2eeapplication\src\main\java\com\example\j2eeapp\services\impl\UserAuthenticationProviderServiceImpl.java
